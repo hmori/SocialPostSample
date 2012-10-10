@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2840" systemVersion="11E53" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1926"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="SPViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8nq-xx-mfA">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Facebook">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="facebookButtonAction:" destination="2" eventType="touchUpInside" id="bsu-0X-H2l"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A6e-7o-Dzu">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Twitter">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="twitterButtonAction:" destination="2" eventType="touchUpInside" id="lsg-o4-5JB"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="87o-aD-zhK">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="186" id="TUx-L9-2dB"/>
+                                    <constraint firstAttribute="width" constant="308" id="h79-BY-ZVj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="erK-7J-r9s">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Weibo">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="weiboButtonAction:" destination="2" eventType="touchUpInside" id="8Y3-iz-DGb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oh1-kL-82z">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Show accounts">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showAccounts:" destination="2" eventType="touchUpInside" id="YOt-AH-TG1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lKB-zL-x9G">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Facebook">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="facebookRequestButtonAction:" destination="2" eventType="touchUpInside" id="fOK-TW-HWj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2L1-TU-P60">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Twitter">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="twitterRequestButtonAction:" destination="2" eventType="touchUpInside" id="JTP-WL-iKD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="16b-Fe-9Uh">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Weibo">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="weiboRequestButtonAction:" destination="2" eventType="touchUpInside" id="25f-JH-ZPa"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="SLComposeViewController" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ztx-t6-9MH">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="SLRequest" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hxt-iM-brx">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="87o-aD-zhK" firstAttribute="top" secondItem="3" secondAttribute="top" constant="8" id="1BD-JW-SSp"/>
+                            <constraint firstItem="oh1-kL-82z" firstAttribute="top" secondItem="3" secondAttribute="top" constant="214" id="6oG-ds-gJL"/>
+                            <constraint firstItem="Hxt-iM-brx" firstAttribute="leading" secondItem="A6e-7o-Dzu" secondAttribute="leading" type="default" id="BNo-KU-0s4"/>
+                            <constraint firstItem="87o-aD-zhK" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="Cn3-i1-2dw"/>
+                            <constraint firstItem="16b-Fe-9Uh" firstAttribute="baseline" secondItem="lKB-zL-x9G" secondAttribute="baseline" type="default" id="MH8-LI-QRa"/>
+                            <constraint firstAttribute="bottom" secondItem="A6e-7o-Dzu" secondAttribute="bottom" constant="119" id="Wad-yB-Jif"/>
+                            <constraint firstItem="erK-7J-r9s" firstAttribute="baseline" secondItem="8nq-xx-mfA" secondAttribute="baseline" type="default" id="Yhl-xW-3QY"/>
+                            <constraint firstItem="oh1-kL-82z" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="28" id="aKs-Sh-c1G"/>
+                            <constraint firstItem="8nq-xx-mfA" firstAttribute="centerX" secondItem="87o-aD-zhK" secondAttribute="centerX" type="default" id="fc7-uF-3B8"/>
+                            <constraint firstItem="8nq-xx-mfA" firstAttribute="leading" secondItem="lKB-zL-x9G" secondAttribute="leading" type="default" id="fnG-FH-6u3"/>
+                            <constraint firstItem="8nq-xx-mfA" firstAttribute="baseline" secondItem="A6e-7o-Dzu" secondAttribute="baseline" type="default" id="hTa-qo-uUx"/>
+                            <constraint firstAttribute="bottom" secondItem="2L1-TU-P60" secondAttribute="bottom" constant="35" id="i9X-AB-oFD"/>
+                            <constraint firstItem="oh1-kL-82z" firstAttribute="leading" secondItem="ztx-t6-9MH" secondAttribute="leading" type="default" id="j8s-of-czH"/>
+                            <constraint firstAttribute="trailing" secondItem="erK-7J-r9s" secondAttribute="trailing" constant="27" id="jeW-DL-e3F"/>
+                            <constraint firstItem="ztx-t6-9MH" firstAttribute="leading" secondItem="A6e-7o-Dzu" secondAttribute="leading" type="default" id="lQI-wK-WIn"/>
+                            <constraint firstItem="Hxt-iM-brx" firstAttribute="leading" secondItem="2L1-TU-P60" secondAttribute="leading" type="default" id="mCO-7H-mo6"/>
+                            <constraint firstItem="16b-Fe-9Uh" firstAttribute="leading" secondItem="erK-7J-r9s" secondAttribute="leading" type="default" id="oMV-6a-QFZ"/>
+                            <constraint firstItem="2L1-TU-P60" firstAttribute="baseline" secondItem="lKB-zL-x9G" secondAttribute="baseline" type="default" id="qPK-3w-TwP"/>
+                            <constraint firstItem="A6e-7o-Dzu" firstAttribute="top" secondItem="ztx-t6-9MH" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="sAn-PF-IyU"/>
+                            <constraint firstItem="2L1-TU-P60" firstAttribute="top" secondItem="Hxt-iM-brx" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="z7l-dX-Oig"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="accountTextView" destination="87o-aD-zhK" id="mHd-nr-Acv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="SPViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SPViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="facebookButtonAction:" candidateClass="UIButton"/>
+                <relationship kind="action" name="facebookRequestButtonAction:" candidateClass="UIButton"/>
+                <relationship kind="action" name="showAccounts:" candidateClass="UIButton"/>
+                <relationship kind="action" name="twitterButtonAction:" candidateClass="UIButton"/>
+                <relationship kind="action" name="twitterRequestButtonAction:" candidateClass="UIButton"/>
+                <relationship kind="action" name="weiboButtonAction:" candidateClass="UIButton"/>
+                <relationship kind="action" name="weiboRequestButtonAction:" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="accountTextView" candidateClass="UITextView"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
